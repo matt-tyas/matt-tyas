@@ -5,7 +5,7 @@
         Matt Tyas
       </h1>
       <h2 class="subtitle">
-        Principal designer
+        Principal designer at Co-op digital
       </h2>
     </div>
   </section>
@@ -14,6 +14,7 @@
 <style>
 .container {
   margin: 0 auto;
+  padding: 20px;
   min-height: 100vh;
   display: flex;
   justify-content: center;
@@ -26,14 +27,14 @@
     'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
   display: block;
   font-weight: 300;
-  font-size: 100px;
+  font-size: 60px;
   color: #35495e;
   letter-spacing: 1px;
 }
 
 .subtitle {
   font-weight: 300;
-  font-size: 42px;
+  font-size: 32px;
   color: #526488;
   word-spacing: 5px;
   padding-bottom: 15px;
