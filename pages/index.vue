@@ -1,46 +1,52 @@
 <template>
-  <section class="container">
-    <div>
-      <h1 class="title">
-        Matt Tyas
-      </h1>
-      <h2 class="subtitle">
-        Principal designer at Co-op digital
-      </h2>
-    </div>
-  </section>
+    <main>
+      <section>
+        <nuxt-link to="/about" class="mt-box mt-box--about mt-box--link">
+          <h1 class="mt-title">
+            Matt Tyas
+          </h1>
+          <h2 class="mt-subtitle">
+            Principal designer at Co-op digital. Director at Manchester's Finest.<br> A cartoon of a human.
+          </h2>
+          <img src="~/assets/matt.svg" alt="" class="mt-portrait">
+        </nuxt-link>
+      </section>
+      <section>
+        <nuxt-link to="/week-sketches" class="mt-box mt-box--sketches mt-box--link">
+          <h2 class="mt-section-title mt--inverse">
+              Week sketches
+          </h2>
+        </nuxt-link>
+      </section>
+      <section>
+        <nuxt-link to="/writing" class="mt-box mt-box--writing mt-box--link">
+          <h2 class="mt-section-title mt--inverse">
+              Writing
+          </h2>
+        </nuxt-link>
+      </section>
+      <transition name="page-leave" mode="out-in">
+        <section>
+          <nuxt-link to="/work" class="mt-box mt-box--work mt-box--link">
+            <h2 class="mt-section-title mt--inverse">
+                What I do
+            </h2>
+          </nuxt-link>
+        </section>
+      </transition>
+      <section>
+        <nuxt-link to="/contact" class="mt-box mt-box--contact mt-box--link">
+          <h2 class="mt-section-title mt--inverse">
+              Contact me
+          </h2>
+        </nuxt-link>
+      </section>
+    </main>
 </template>
 
 <style>
-.container {
-  margin: 0 auto;
-  padding: 20px;
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
 
-.title {
-  font-family: 'Quicksand', 'Source Sans Pro', -apple-system, BlinkMacSystemFont,
-    'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
-  display: block;
-  font-weight: 300;
-  font-size: 60px;
-  color: #35495e;
-  letter-spacing: 1px;
-}
 
-.subtitle {
-  font-weight: 300;
-  font-size: 32px;
-  color: #526488;
-  word-spacing: 5px;
-  padding-bottom: 15px;
-}
 
-.links {
-  padding-top: 15px;
-}
+
 </style>
