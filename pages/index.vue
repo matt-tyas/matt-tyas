@@ -1,7 +1,7 @@
 <template>
-    <main>
+    <main class="mt-home">
       <section>
-        <nuxt-link to="/about" class="mt-box mt-box--about mt-box--link">
+        <nuxt-link to="/about" class="mt-box mt-box--about">
           <h1 class="mt-title">
             Matt Tyas
           </h1>
@@ -43,10 +43,3 @@
       </section>
     </main>
 </template>
-
-<style>
-
-
-
-
-</style>
