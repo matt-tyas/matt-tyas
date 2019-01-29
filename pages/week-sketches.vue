@@ -1,6 +1,6 @@
 <template>
   <main>
-    <section class="mt-box mt-box--sketches mt-box--full">
+    <section class="mt-box mt-box--sketches mt-box--open">
       <h1 class="mt-title mt--inverse">
         Week sketches
       </h1>
@@ -21,7 +21,3 @@
     </section>
   </main>
 </template>
-
-<style>
-
-</style>

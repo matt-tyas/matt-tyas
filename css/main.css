@@ -23,7 +23,7 @@ body, html {
 
 body {
   color: #000;
-  background: #EFEFEF;
+  background: #000;
   font-size: 1.3rem;
   font-weight: 300;
   font-family: adelle-sans, sans-serif;
@@ -50,16 +50,27 @@ p {
   width: 100%;
 }
 
+.mt-nav-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  opacity: 1;
+}
+
+.page-enter-active .mt-nav-list,
+.page-leave-active .mt-nav-list {
+  opacity: 0;
+}
+
 .mt-box {
   position: absolute;
-  height: 50%;
+  height: 25%;
   width: 50%;
   padding: 1.5% 3%;
   background: #FFF;
   overflow: hidden;
   text-decoration: none;
-  -webkit-transition: width .45s, height .45s;
-          transition: width .45s, height .45s;
+  transition: all 0.5s ease-in-out;
 }
 
 .mt-portrait {
@@ -69,70 +80,140 @@ p {
   transition: all .15s;
 }
 
-.mt-box--about:hover .mt-portrait {
-  top: 0px;
+.mt-box--about {
+  height: 100%;
+  width: 50%;
+  top: 0;
+  left: 0;
+}
+
+.page-enter-active .mt-box--about,
+.page-leave-active .mt-box--about {
+  height: 100%;
+  width: 50%;
 }
 
 .mt-box--work {
   right: 0;
   top: 0;
-  background: var(--mt-grey);
+  height: 50%;
+  background: var(--mt-bright);
+}
+
+.page-enter-active .mt-box--work,
+.page-leave-active .mt-box--work {
+  width: 50%;
+  height: 50%;
 }
 
 .mt-box--contact {
   right: 0;
   bottom: 0;
-  background: var(--mt-bright);
+  height: 17%;
+  background: var(--mt-grey);
+}
+
+.page-enter-active .mt-box--contact,
+.page-leave-active .mt-box--contact  {
+  width: 50%;
+  height: 17%;
 }
 
 .mt-box--sketches {
-  left: 0;
-  height: 25%;
-  bottom: 25%;
+  right: 25%;
+  top: 50%;
+  height: 33.333333%;
+  width: 25%;
   background: var(--mt-light);
 }
 
+.page-enter-active .mt-box--sketches,
+.page-leave-active .mt-box--sketches  {
+  right: 25%;
+  top: 50%;
+  width: 25%;
+  height: 33.333333%;
+}
+
 .mt-box--writing {
-  left: 0;
-  height: 25%;
-  bottom: 0;
+  right: 0;
+  top: 50%;
+  height: 33.333333%;
+  width: 25%;
   background: var(--mt-brand);
 }
 
-.mt-box--contact.nuxt-link-active {
-  bottom: 0;
+.page-enter-active .mt-box--writing,
+.page-leave-active .mt-box--writing  {
   right: 0;
+  top: 50%;
+  width: 25%;
+  height: 33.333333%;
 }
 
-.mt-box--sketches.nuxt-link-active {
-  bottom: 0;
+
+.nav-about--is-active .mt-box--work,
+.nav-about--is-active .mt-box--writing,
+.nav-about--is-active .mt-box--contact,
+.nav-about--is-active .mt-box--sketches {
+  transition: all 0.5s ease-in-out;
+	transform: scale(0.5);
+	opacity: 0;
 }
 
-.page-enter-active .mt-box,
-.page-leave-active .mt-box {
+.nav-work--is-active .mt-box--about,
+.nav-work--is-active .mt-box--writing,
+.nav-work--is-active .mt-box--contact,
+.nav-work--is-active .mt-box--sketches {
+  transition: all 0.5s ease-in-out;
+	transform: scale(0.5);
+	opacity: 0;
+}
+
+.nav-sketches--is-active .mt-box--about,
+.nav-sketches--is-active .mt-box--writing,
+.nav-sketches--is-active .mt-box--contact,
+.nav-sketches--is-active .mt-box--sketches {
+  transition: all 0.5s ease-in-out;
+	transform: scale(0.5);
+	opacity: 0;
+}
+
+.nav-writing--is-active .mt-box--about,
+.nav-writing--is-active .mt-box--sketches,
+.nav-writing--is-active .mt-box--contact,
+.nav-writing--is-active .mt-box--work {
+  transition: all 0.5s ease-in-out;
+	transform: scale(0.5);
+	opacity: 0;
+}
+
+.nav-contact--is-active .mt-box--about,
+.nav-contact--is-active .mt-box--sketches,
+.nav-contact--is-active .mt-box--contact,
+.nav-contact--is-active .mt-box--work {
+  transition: all 0.5s ease-in-out;
+	transform: scale(0.5);
+	opacity: 0;
+}
+
+
+
+
+
+
+
+
+.mt-box--open {
   width: 100%;
   height: 100%;
+  right: 0;
+  top: 0;
 }
 
 .mt-box--full {
-  bottom: 0;
   width: 100%;
   height: 100%;
-}
-
-.mt-box--about-full {
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-}
-
-.page-enter-active .mt-box--about-full,
-.page-leave-active .mt-box--about-full,
-.page-enter-active .mt-box--full,
-.page-leave-active .mt-box--full {
-  width: 50%;
-  height: 50%;
 }
 
 .mt-title {
@@ -144,12 +225,6 @@ p {
   margin: 0;
 }
 
-
-
-.mt--inverse {
-  color: #FFF;
-}
-
 .mt-subtitle {
   width: 500px;
   font-weight: lighter;
@@ -158,11 +233,11 @@ p {
   margin-top: 5px;
 }
 
-.mt-section-title {
-  margin-top: 12px;
-  margin-bottom: 18px;
-  font-weight: 300;
-  font-style: normal;
+.mt-box--work .mt-subtitle,
+.mt-box--sketches .mt-subtitle,
+.mt-box--writing .mt-subtitle,
+.mt-box--contact .mt-subtitle {
+  color: #FFF;
 }
 
 .mt-close {

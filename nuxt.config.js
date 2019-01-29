@@ -17,6 +17,10 @@ module.exports = {
     link: [{ rel: 'stylesheet', href: 'https://use.typekit.net/obw2frd.css' }]
   },
 
+  router: {
+    middleware: 'pages'
+  },
+
   /*
   ** Customize the progress-bar color
   */

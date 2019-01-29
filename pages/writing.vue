@@ -1,6 +1,6 @@
 <template>
   <main>
-    <section class="mt-box mt-box--writing mt-box--full">
+    <section class="mt-box mt-box--writing mt-box--open">
       <h1 class="mt-title mt--inverse">
         Writing
       </h1>
