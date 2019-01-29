@@ -1,7 +1,7 @@
 <template>
   <main>
     <section class="mt-box mt-box--writing mt-box--open">
-      <h1 class="mt-title mt--inverse">
+      <h1 class="mt-subtitle mt--inverse">
         Writing
       </h1>
       <nuxt-link to="/" class="mt-close">

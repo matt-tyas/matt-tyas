@@ -1,7 +1,7 @@
 <template>
   <main>
     <section class="mt-box mt-box--work mt-box--full">
-      <h1 class="mt-title mt--inverse">
+      <h1 class="mt-subtitle mt--inverse">
         What I do
       </h1>
       <p class="mt--inverse">

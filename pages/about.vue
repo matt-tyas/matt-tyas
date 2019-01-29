@@ -1,6 +1,6 @@
 <template>
   <main>
-    <section class="mt-box mt-box--about mt-box--full">
+    <section class="mt-box mt-box--about mt-box--full mt-box--back">
         <h1 class="mt-title">
           Matt Tyas
         </h1>

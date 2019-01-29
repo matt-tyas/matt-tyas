@@ -1,8 +1,8 @@
 <template>
   <main>
     <section class="mt-box mt-box--contact mt-box--full">
-      <h1 class="mt-title mt--inverse">
-        Contact me
+      <h1 class="mt-subtitle mt--inverse">
+        Contact
       </h1>
       <nuxt-link to="/" class="mt-close">
         <svg width="34" height="34" xmlns="http://www.w3.org/2000/svg">
