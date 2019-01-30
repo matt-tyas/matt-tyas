@@ -7,11 +7,29 @@
       <p class="mt--inverse">
         Like weeknotes, but drawings. I was challenging myself to write less. This probably takes longer &mdash; but is more fun.
       </p>
-      <div class="mt-grid mt-grid--span">
-        <div class="mt-grid__item">1</div>
-        <div class="mt-grid__item">2</div>
-        <div class="mt-grid__item">3</div>
-        <div class="mt-grid__item">4</div>
+      <div class="mt-overflow-wrap">
+        <div class="mt-grid mt-grid--sketches">
+          <div class="mt-grid__item">
+            <figure class="mt-week-sketch">
+
+            </figure>
+          </div>
+          <div class="mt-grid__item">
+            <figure class="mt-week-sketch">
+
+            </figure>
+          </div>
+          <div class="mt-grid__item">
+            <figure class="mt-week-sketch">
+
+            </figure>
+          </div>
+          <div class="mt-grid__item">
+            <figure class="mt-week-sketch">
+
+            </figure>
+          </div>
+        </div>
       </div>
       <nuxt-link to="/" class="mt-close">
         <svg width="34" height="34" xmlns="http://www.w3.org/2000/svg">

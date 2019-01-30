@@ -8,7 +8,8 @@ const createStore = () => {
         {
           id: 1,
           title: 'Matt Tyas',
-          subtitle: 'Principal designer at Co-op digital. Director at Manchester\'s Finest. A cartoon of a human.',
+          subtitle: 'Principal designer at Co-op digital. Director of Manchester\'s Finest.',
+          linktext: 'More about me',
           url: 'about',
           cssClass: 'mt-box--about',
           img: '/matt.svg'

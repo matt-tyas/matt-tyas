@@ -1,3 +1,5 @@
 <template>
-    <main class="mt-home"></main>
+    <main class="mt-home">
+      
+    </main>
 </template>
