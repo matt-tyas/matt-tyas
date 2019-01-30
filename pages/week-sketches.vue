@@ -4,30 +4,32 @@
       <h1 class="mt-subtitle mt--inverse">
         Week sketches
       </h1>
-      <p class="mt--inverse">
-        Like weeknotes, but drawings. I was challenging myself to write less. This probably takes longer &mdash; but is more fun.
-      </p>
-      <div class="mt-overflow-wrap">
-        <div class="mt-grid mt-grid--sketches">
-          <div class="mt-grid__item">
-            <figure class="mt-week-sketch">
+      <div class="mt-sketches-content mt-sketches-content--is-open">
+        <p class="mt--inverse">
+          Like weeknotes, but drawings. I was challenging myself to write less. This probably takes longer &mdash; but is more fun.
+        </p>
+        <div class="mt-overflow-wrap">
+          <div class="mt-grid mt-grid--sketches">
+            <div class="mt-grid__item">
+              <figure class="mt-week-sketch">
+                <img src="~/static/weeksketches/weeksketch-11-01-19.jpg" alt="Weeksketch" >
+              </figure>
+            </div>
+            <div class="mt-grid__item">
+              <figure class="mt-week-sketch">
 
-            </figure>
-          </div>
-          <div class="mt-grid__item">
-            <figure class="mt-week-sketch">
+              </figure>
+            </div>
+            <div class="mt-grid__item">
+              <figure class="mt-week-sketch">
 
-            </figure>
-          </div>
-          <div class="mt-grid__item">
-            <figure class="mt-week-sketch">
+              </figure>
+            </div>
+            <div class="mt-grid__item">
+              <figure class="mt-week-sketch">
 
-            </figure>
-          </div>
-          <div class="mt-grid__item">
-            <figure class="mt-week-sketch">
-
-            </figure>
+              </figure>
+            </div>
           </div>
         </div>
       </div>

@@ -14,25 +14,26 @@
           <article class="mt-about-content mt-about-content--is-open">
             <h3>About me</h3>
             <p>
-              I'm a Principle Designer with 12 years experience. I've managed a design
-              team through periods of organisational change and digital rebranding.
-              I have worked as a service designer, interaction designer and frontend developer on large scale projects, designing and building detailed design systems for the Co-op, the University of Leeds, many US companies and my own business — Manchester’s Finest.
+              I'm a Principle Designer with 12 years experience. I manage design, devlopment and product teams.
+            </p>
+            <p>
+              I've worked as a service designer, interaction designer and frontend developer on large scale projects, designing and building detailed design systems for the Co-op, the University of Leeds, many US companies and my own business &mdash; Manchester’s&nbsp;Finest.
             </p>
             <p>
               I believe in:
             </p>
             <ul>
               <li>
-                using researched based design to achieve user and business goals
+                using researched based design to achieve user and business&nbsp;goals
               </li>
               <li>
-                prototyping in code and showing users early and often
+                prototyping in code and showing users early and&nbsp;often
               </li>
               <li>
-                the power of design systems to empower teams to go faster and build trust with users
+                the power of design systems to empower teams to go faster and build trust with&nbsp;users
               </li>
               <li>
-                collaboration across disciplines to create the best outcomes
+                collaboration across disciplines to create the best&nbsp;outcomes
               </li>
             </ul>
           </article>

@@ -76,7 +76,7 @@ ul {
   background: #FFF;
   overflow: hidden;
   text-decoration: none;
-  transition: all 0.35s ease-in-out;
+  transition: all 0.35s ease-in-out .15s;
 }
 
 .page-enter-active,
@@ -88,7 +88,7 @@ ul {
   float: left;
   position: relative;
   top: 60px;
-  transition: all .15s;
+  transition: all 0.15s;
 }
 
 .mt-box--about {
@@ -97,6 +97,10 @@ ul {
   top: 0;
   left: 0;
   background: #FFF;
+}
+
+.page-enter-active .mt-about-content {
+  opacity: 0;
 }
 
 .mt-box--about:hover {
@@ -150,6 +154,22 @@ ul {
   top: 50%;
   width: 25%;
   height: 33.333333%;
+}
+
+.mt-sketches-content {
+  opacity: 0;
+  transition-property: opacity;
+  transition-duration: 500ms;
+  transition-timing-function: ease-in-out;
+  transition-delay: .5s;
+}
+
+.page-enter-active .mt-sketches-content {
+  opacity: 0;
+}
+
+.mt-sketches-content--is-open {
+  opacity: 1;
 }
 
 .mt-box--writing {
@@ -243,7 +263,7 @@ ul {
   font-weight: 300;
   font-style: normal;
   font-size: 60px;
-  color: #35495e;
+  color: var(--mt-dark-blue);
   margin: 0;
 }
 
@@ -251,7 +271,7 @@ ul {
   width: 500px;
   font-weight: lighter;
   font-size: 28px;
-  color: #526488;
+  color: var(--mt-light-blue);
   margin-top: 5px;
 }
 
@@ -268,7 +288,7 @@ ul {
   width: 32px;
   height: 32px;
   right: 40px;
-  top: 40px;
+  top: 30px;
   opacity: 1;
   transition: opacity .35 ease-in-out;
 }
@@ -277,11 +297,7 @@ ul {
   width: 32px;
   height: 32px;
   opacity: 0.8;
-  transition: opacity .25;
-}
-
-.page-enter-active .mt-about-content {
-  opacity: 0;
+  transition: opacity .25 ease;
 }
 
 .mt-close:hover svg path {
@@ -290,7 +306,6 @@ ul {
 
 .mt-overflow-wrap {
   width: auto;
-  height: 400px;
   margin-top: 64px;
   overflow-x: scroll;
 }
@@ -329,14 +344,14 @@ ul {
   grid-area: about-content;
   overflow-y: scroll;
   height: 100vh;
-  margin: 0 62px 0 0;
+  margin: 15px 62px 0 0;
   padding-right: 40px;
   padding-left: 25px;
   opacity: 0;
   transition-property: opacity;
   transition-duration: 500ms;
   transition-timing-function: ease-in-out;
-  transition-delay: .35s;
+  transition-delay: .5s;
 }
 
 .page-enter-active .mt-about-content {
@@ -381,7 +396,14 @@ ul {
 
 .mt-week-sketch {
   width: 600px;
-  height: 400px;
+  height: auto;
   margin: 0;
+  padding: 0;
   background-color: var(--mt-bright);
+  border: 8px solid var(--mt-bright);
+}
+
+.mt-week-sketch img {
+  display: block;
+  width: 100%;
 }
