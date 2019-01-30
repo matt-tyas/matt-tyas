@@ -12,22 +12,22 @@
           <div class="mt-grid mt-grid--sketches">
             <div class="mt-grid__item">
               <figure class="mt-week-sketch">
-                <img src="~/static/weeksketches/weeksketch-11-01-19.jpg" alt="Weeksketch" >
+                <img src="~/static/weeksketches/weeksketch-11-01-19.jpg" alt="Weeksketch">
               </figure>
             </div>
             <div class="mt-grid__item">
               <figure class="mt-week-sketch">
-
+                <img src="~/static/weeksketches/weeksketch-11-01-19.jpg" alt="Weeksketch">
               </figure>
             </div>
             <div class="mt-grid__item">
               <figure class="mt-week-sketch">
-
+                <img src="~/static/weeksketches/weeksketch-11-01-19.jpg" alt="Weeksketch">
               </figure>
             </div>
             <div class="mt-grid__item">
               <figure class="mt-week-sketch">
-
+                <img src="~/static/weeksketches/weeksketch-11-01-19.jpg" alt="Weeksketch">
               </figure>
             </div>
           </div>
