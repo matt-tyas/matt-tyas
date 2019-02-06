@@ -14,10 +14,10 @@
           <article class="mt-about-content mt-about-content--is-open">
             <h3>About me</h3>
             <p>
-              I'm a Principle Designer with 12 years experience. I manage design, development and product teams.
+              I'm a Principle Designer with 12 years experience. I manage design, development and product teams but also continue with my practice.
             </p>
             <p>
-              I've worked as a service designer, interaction designer and frontend developer on large scale projects, designing and building detailed design systems for the Co-op, the University of Leeds, many US companies and my own business &mdash; Manchester’s&nbsp;Finest.
+              I've worked as a service designer, interaction designer and frontend developer on large scale projects, designing and building design systems for the Co-op, the University of Leeds, many US companies and my own business &mdash; <a href="http://www.manchestersfinest.com">Manchester’s&nbsp;Finest</a>.
             </p>
             <p>
               <strong>I believe in:</strong>

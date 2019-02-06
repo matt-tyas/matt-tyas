@@ -5,7 +5,7 @@
         What I do
       </h1>
       <p class="mt--inverse">
-        This is the serious bit so it's dark grey.
+        Coming soon&hellip;
       </p>
       <nuxt-link to="/" class="mt-close">
         <svg width="34" height="34" xmlns="http://www.w3.org/2000/svg">
