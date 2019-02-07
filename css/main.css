@@ -51,6 +51,10 @@ a:hover {
   text-decoration: none;
 }
 
+.mt-link {
+  text-decoration: underline;
+}
+
 p {
   margin-top: 0;
 }
@@ -89,7 +93,7 @@ ul {
 @media (min-width: 1020px) {
 
   .mt-box {
-    padding: 1.5% 3%;
+    padding: 1.5% 2.5%;
   }
 }
 
@@ -98,8 +102,19 @@ ul {
   transition: all 0.35s ease-in-out;
 }
 
+.mt-intro__image-group {
+  height: 300px;
+  background: url('/walls.svg') no-repeat 160px 40px;
+}
+
+.mt-intro__image-group,
+.mt-about-link {
+  transition: all 0.35s ease-in-out .15s;
+}
+
 .mt-portrait {
-  float: left;
+  width: 240px;
+  left: -20px;
   position: absolute;
   bottom: 100px;
   transition: all 0.15s;
@@ -109,6 +124,26 @@ ul {
 
   .mt-portrait {
     bottom: 32px;
+    left: 12px;
+  }
+}
+
+.mt-more {
+  position: absolute;
+  left: 240px;
+  bottom: 100px;
+  width: 140px;
+  z-index: 2;
+  opacity: 1;
+  text-decoration: underline;
+}
+
+@media (min-width: 1020px) {
+
+  .mt-more{
+    left: 200px;
+    bottom: 32px;
+    width: 200px;
   }
 }
 
@@ -117,6 +152,7 @@ ul {
   height: 100vh;
   top: 0;
   left: 0;
+  padding: 1.5% 2.5%;
   background: #FFF;
 }
 
@@ -125,17 +161,13 @@ ul {
   .mt-box--about {
     width: 50%;
     left: 0;
+    padding: 1.5% 0 1.5% 2.5%;
   }
 }
 
 .page-enter-active .mt-about-content {
   opacity: 0;
 }
-
-.mt-box--about:hover {
-
-}
-
 
 .page-enter-active .mt-box--about,
 .page-leave-active .mt-box--about {
@@ -189,6 +221,21 @@ ul {
     width: 50%;
     height: 50%;
   }
+}
+
+.mt-job {
+  margin: 8% 0 0 0;
+  float: left;
+  width: 50%;
+}
+
+.mt-job__logo--finest {
+  margin: 14px 0 15px 0;
+}
+
+.mt-job__logo--coop {
+  width: 50px;
+  margin: 12px 0 10px 0;
 }
 
 .mt-box--contact {
@@ -326,6 +373,7 @@ ul {
 }
 
 .mt-box--full {
+  z-index: 3;
   width: 100%;
   height: 100%;
 }
@@ -349,6 +397,13 @@ ul {
 	transform: scale(0.5);
 	opacity: 0;
 }
+
+.nav-about--is-active .mt-intro__image-group,
+.nav-about--is-active .mt-about-link {
+  opacity: 0;
+}
+
+
 
 .nav-work--is-active .mt-box--about,
 .nav-work--is-active .mt-box--writing,
@@ -411,11 +466,21 @@ ul {
   margin-top: 5px;
 }
 
+.mt-about-link {
+  font-size: 24px;
+  color: var(--mt-light-blue);
+  text-decoration: underline;
+}
+
+/* .mt-box--about:hover .mt-about-link {
+  text-decoration: none;
+} */
+
 @media (min-width: 1020px) {
 
   .mt-subtitle {
     font-size: 28px;
-    width: 500px;
+    width: 450px;
   }
 }
 
@@ -499,7 +564,7 @@ ul {
   grid-area: about-content;
   overflow-y: scroll;
   height: 100vh;
-  margin: 11px 50px 0 0;
+  margin: 14px 50px 0 0;
   padding-right: 25px;
   padding-left: 25px;
   opacity: 0;
@@ -514,8 +579,8 @@ ul {
 
   .mt-about-content {
     position: static;
-    margin: 15px 62px 0 0;
-    padding-right: 40px;
+    margin: 8px 62px 0 0;
+    padding-right: 100px;
     padding-left: 25px;
   }
 }
@@ -537,6 +602,22 @@ ul {
 .page-leave-active .mt-about-content {
   animation: opacity 400ms ease-out;
 }
+
+/* @-webkit-keyframes move-bg {
+	from {
+		transform: translateX(0);
+	}
+	to { 
+		transform: translateX(-187%);
+	}
+}
+
+.mt-intro__image-group {
+  animation-name: MOVE-BG;
+	animation-duration: 100s;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+} */
 
 @media all and (-ms-high-contrast:none) {
   .mt-grid-container {
@@ -568,6 +649,7 @@ ul {
   margin: 0;
   padding: 0;
   background-color: var(--mt-bright);
+  border: 12px solid var(--mt-bright);
 }
 
 .mt-week-sketch img {

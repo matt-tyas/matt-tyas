@@ -13,9 +13,38 @@
               {{link.title}}
             </h1>
             <h2 class="mt-subtitle">
-              {{link.subtitle}}
+              {{link.subtitle}} 
             </h2>
-            <img v-if="link.img" :src="`${link.img}`" alt="" class="mt-portrait">
+            <p class="mt-about-link">{{link.profileLink}}</p>
+            <img 
+              v-if="link.profileImg" 
+              :src="`${link.profileImg}`" 
+              alt="A poor quality illustration of Matt Tyas"
+              :class="`${link.cssImgClass}`"
+            >
+            <div v-if="link.profileImg" class="mt-intro__image-group"></div>
+            <figure v-if="link.coopImg" class="mt-job">
+              <img 
+                  v-if="link.coopImg"  
+                  :src="`${link.coopImg}`" 
+                  alt="Co-op logo" 
+                  class="mt-job__logo mt-job__logo--coop"
+                >
+              <figcaption v-if="link.coopJob">
+                {{link.coopJob}}
+              </figcaption>
+            </figure>
+            <figure v-if="link.finestImg" class="mt-job">
+              <img 
+                  v-if="link.finestImg"  
+                  :src="`${link.finestImg}`" 
+                  alt="Manchester's Finest logo"
+                  class="mt-job__logo mt-job__logo--finest"
+                >
+              <figcaption v-if="link.finestJob">
+                {{link.finestJob}}
+              </figcaption>
+            </figure>
           </nuxt-link>
         </li>
       </transition-group>

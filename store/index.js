@@ -8,17 +8,24 @@ const createStore = () => {
         {
           id: 1,
           title: 'Matt Tyas',
-          subtitle: 'Principal designer at Co-op digital. Director of Manchester\'s Finest.',
+          subtitle: 'Service and interaction design. Product, team management and frontend engineering.',
           linktext: 'More about me',
           url: 'about',
           cssClass: 'mt-box--about',
-          img: '/matt.svg'
+          profileImg: '/matt.svg',
+          cssImgClass: 'mt-portrait',
+          profileLink: 'More about me',
+          profileLinkCssClass: 'mt-more'
         },
         {
           id: 2,
-          subtitle: 'What I do',
+          subtitle: 'Work',
           url: 'work',
-          cssClass: 'mt-box--work'
+          cssClass: 'mt-box--work',
+          coopImg: '/coop-logo-white.svg',
+          coopJob: 'Principal Designer',
+          finestImg: '/manchesters-finest.svg',
+          finestJob: 'Director'
         },
         {
           id: 3,
