@@ -15,15 +15,15 @@
             <h2 class="mt-subtitle">
               {{link.subtitle}} 
             </h2>
-            <p class="mt-about-link">{{link.profileLink}}</p>
             <img 
               v-if="link.profileImg" 
               :src="`${link.profileImg}`" 
               alt="A poor quality illustration of Matt Tyas"
               :class="`${link.cssImgClass}`"
             >
+            <p class="mt-about-link">{{link.profileLink}}</p>
             <div v-if="link.profileImg" class="mt-intro__image-group"></div>
-            <figure v-if="link.coopImg" class="mt-job">
+            <!-- <figure v-if="link.coopImg" class="mt-job">
               <img 
                   v-if="link.coopImg"  
                   :src="`${link.coopImg}`" 
@@ -44,7 +44,8 @@
               <figcaption v-if="link.finestJob">
                 {{link.finestJob}}
               </figcaption>
-            </figure>
+            </figure> -->
+
           </nuxt-link>
         </li>
       </transition-group>

@@ -1,20 +1,20 @@
 <template>
   <main>
-    <section class="mt-box mt-box--about mt-box--full mt-box--back">
+    <section class="mt-box mt-box--about mt-box--full mt-box--about--is-open">
         <div class="mt-grid-container">
           <header class="mt-introduction">
             <h1 class="mt-title">
               Matt Tyas
             </h1>
             <h2 class="mt-subtitle">
-              Service and interaction design. Product, team management and frontend engineering
+              Service and interaction design. Product, team management and frontend engineering.
             </h2>
             <img src="~/static/matt.svg" alt="A poor quality illustration of Matt Tyas" class="mt-portrait">
           </header>
           <article class="mt-about-content mt-about-content--is-open">
             <h3>About me</h3>
             <p>
-              I'm a Principle Designer with 12 years experience. I manage design, development and product teams but also continue with my practice.
+              I'm a Principle Designer with 12 years experience. I manage design, development and product teams but also continue with my&nbsp;practice.
             </p>
             <p>
               I've worked as a service designer, interaction designer and frontend developer on large scale projects, designing and building design systems for the Co-op, the University of Leeds, many US companies and my own business &mdash; <a href="http://www.manchestersfinest.com">Manchester’s&nbsp;Finest</a>.

@@ -104,7 +104,7 @@ ul {
 
 .mt-intro__image-group {
   height: 300px;
-  background: url('/walls.svg') no-repeat 160px 40px;
+  background: url('/walls.svg') no-repeat 180px 40px;
 }
 
 .mt-intro__image-group,
@@ -113,29 +113,19 @@ ul {
 }
 
 .mt-portrait {
-  width: 240px;
+  width: 250px;
+  top: 270px;
   left: -20px;
   position: absolute;
-  bottom: 100px;
   transition: all 0.15s;
 }
 
 @media (min-width: 1020px) {
 
   .mt-portrait {
-    bottom: 32px;
+    top: 320px; 
     left: 12px;
   }
-}
-
-.mt-more {
-  position: absolute;
-  left: 240px;
-  bottom: 100px;
-  width: 140px;
-  z-index: 2;
-  opacity: 1;
-  text-decoration: underline;
 }
 
 @media (min-width: 1020px) {
@@ -152,8 +142,12 @@ ul {
   height: 100vh;
   top: 0;
   left: 0;
-  padding: 1.5% 2.5%;
+  padding: 1.5% 0 1.5% 2.5%;
   background: #FFF;
+}
+
+.mt-box--about--is-open {
+  padding-right: 2.5%;
 }
 
 @media (min-width: 1020px) {
@@ -161,7 +155,6 @@ ul {
   .mt-box--about {
     width: 50%;
     left: 0;
-    padding: 1.5% 0 1.5% 2.5%;
   }
 }
 
@@ -224,18 +217,17 @@ ul {
 }
 
 .mt-job {
-  margin: 8% 0 0 0;
-  float: left;
-  width: 50%;
+  margin: 0 0 64px 0;
 }
 
 .mt-job__logo--finest {
-  margin: 14px 0 15px 0;
+  width: 320px;
+  margin: 0 0 15px 0;
 }
 
 .mt-job__logo--coop {
   width: 50px;
-  margin: 12px 0 10px 0;
+  margin: 0 0 10px 0;
 }
 
 .mt-box--contact {
@@ -274,6 +266,7 @@ ul {
   height: 100px;
   width: 50%;
   background: var(--mt-light);
+  /* background-image: url('/static/weeksketches/weeksketch-11-01-19.jpg'); */
 }
 
 @media (min-width: 1020px) {
@@ -389,6 +382,28 @@ ul {
   color: #FFF;
 }
 
+.mt-box--work .mt-subtitle,
+.mt-box--writing .mt-subtitle,
+.mt-box--contact .mt-subtitle,
+.mt-box--sketches .mt-subtitle {
+  color: #FFF;
+  text-decoration: underline;
+}
+
+.mt-box--work:hover .mt-subtitle,
+.mt-box--writing:hover .mt-subtitle,
+.mt-box--contact:hover .mt-subtitle,
+.mt-box--sketches:hover .mt-subtitle {
+  text-decoration: none;
+}
+
+.mt-box--work .mt-title,
+.mt-box--writing .mt-title,
+.mt-box--contact .mt-title,
+.mt-box--sketches .mt-title {
+  color: #FFF;
+}
+
 .nav-about--is-active .mt-box--work,
 .nav-about--is-active .mt-box--writing,
 .nav-about--is-active .mt-box--contact,
@@ -467,20 +482,43 @@ ul {
 }
 
 .mt-about-link {
-  font-size: 24px;
-  color: var(--mt-light-blue);
+  position: absolute;
+  bottom: 24px;
+  font-size: 26px;
+  color: #FFF;
   text-decoration: underline;
+  line-height: 1;
 }
 
-/* .mt-box--about:hover .mt-about-link {
+.mt-box--about .mt-about-link {
+  position: static;
+  color: var(--mt-light-blue);
+}
+
+.mt-box--about:hover .mt-about-link,
+.mt-box--work:hover .mt-about-link,
+.mt-box--sketches:hover .mt-about-link,
+.mt-box--writing:hover .mt-about-link,
+.mt-box--contact:hover .mt-about-link {
   text-decoration: none;
-} */
+}
 
 @media (min-width: 1020px) {
 
   .mt-subtitle {
     font-size: 28px;
     width: 450px;
+  }
+}
+
+.mt-column {
+  width: 100%;
+}
+
+@media (min-width: 1020px) {
+
+  .mt-column {
+    width: 600px;
   }
 }
 
@@ -540,7 +578,7 @@ ul {
 
 .mt-grid-container {
   display: grid;
-  grid-template-columns: 45% 55%;
+  grid-template-columns: 40% 60%;
   grid-template-rows: 1fr;
   grid-template-areas: "introduction about-content";
 }
@@ -562,34 +600,34 @@ ul {
   top: 0;
   left: 0;
   grid-area: about-content;
-  overflow-y: scroll;
+  /* overflow-y: scroll; */
   height: 100vh;
-  margin: 14px 50px 0 0;
+  margin: 24px 50px 0 0;
   padding-right: 25px;
   padding-left: 25px;
   opacity: 0;
+  color: #000;
   background: #FFF;
   transition-property: opacity;
   transition-duration: 500ms;
   transition-timing-function: ease-in-out;
   transition-delay: .5s;
+  box-shadow: 0px 10px 93px 0px rgba(0,0,0,0.31);
 }
 
 @media (min-width: 1020px) {
 
   .mt-about-content {
     position: static;
-    margin: 8px 62px 0 0;
-    padding-right: 100px;
-    padding-left: 25px;
+    margin: 28px 75px 0 0;
+    padding: 40px 60px;
   }
 }
 
 .page-enter-active .mt-about-content {
-  opacity: 0;
-  
+  opacity: 0
 }
-
+ 
 .mt-about-content--is-open {
   opacity: 1;
 }
@@ -618,6 +656,11 @@ ul {
 	animation-timing-function: linear;
 	animation-iteration-count: infinite;
 } */
+
+.mt-blog-post {
+  font-size: 24px;
+  margin-bottom: 32px;
+}
 
 @media all and (-ms-high-contrast:none) {
   .mt-grid-container {
