@@ -7,12 +7,17 @@
             Contact
           </h1>
           <h2 class="mt-subtitle">
-            Give me a shout. I am available to give talks.
+            Give me a shout. I'm nice, and I'm available to give talks.
           </h2>
           <!-- <img src="~/static/matt.svg" alt="A poor quality illustration of Matt Tyas" class="mt-portrait"> -->
         </header>
-        <article class="mt-about-content mt-about-content--is-open">
-          <p>Test.</p>
+        <article class="mt-about-content mt-about-content--is-open mt-contact-width">
+          <h3>Contact me on</h3>
+          <ul>
+            <li><a href="mailto:matt.tyas@gmail.com">Email &mdash; matt.tyas@gmail.com</a></li>
+            <li><a href="https://twitter.com/MattTyas">Twitter &mdash; @MattTyas</a></li>
+            <li><a href="https://www.linkedin.com/in/matthew-tyas-74b24717/">Linkedin</a></li>
+          </ul>
         </article>
       </div>
       <nuxt-link to="/" class="mt-close">

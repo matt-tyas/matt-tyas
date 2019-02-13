@@ -1,13 +1,13 @@
 <template>
   <main>
-    <section class="mt-box mt-box--work mt-box--full">
+    <section class="mt-box mt-box--work mt-box--open">
       <div class="mt-grid-container">
         <header class="mt-introduction">
           <h1 class="mt-title mt-inverse">
             Work
           </h1>
           <h2 class="mt-subtitle">
-            Principal Designer and Director.
+            I'm a Principal Designer and I run my own business based in the Northern&nbsp;Quarter.
           </h2>
           <!-- <img src="~/static/matt.svg" alt="A poor quality illustration of Matt Tyas" class="mt-portrait"> -->
         </header>
@@ -15,13 +15,17 @@
           <figure class="mt-job">
             <img src="/coop-logo-white.svg" alt="Co-op logo" class="mt-job__logo mt-job__logo--coop"> 
             <figcaption>
-              Principal Designer
+              <h3>Principal Designer</h3>
+              <p>As Principal designer I am responsible for leading design, user research and build of the main Co-op customer facing websites. I manage a team of designers and front end engineers, lead the front end development community of practice and am responsibe for the Co-op design system.</p>
+              <a href="http://www.coop.co.uk/designsystem">Visit the Co-op design system</a>
             </figcaption>
           </figure>
           <figure class="mt-job">
             <img src="/manchesters-finest.svg" alt="Manchester's Finest logo" class="mt-job__logo mt-job__logo--finest"> 
             <figcaption>
-              Director
+              <h3>Technical Director</h3>
+              <p>Manchester’s Finest is an independent digital media and marketing company based in the Northern Quarter. We deliver creative content and experiences to Manchester and wider audiences. We aim to promote the very best the city has to offer.</p>
+              <a href="http://www.manchestersfinest.com">Visit Manchester’s Finest</a>
             </figcaption>
           </figure>
         </article>

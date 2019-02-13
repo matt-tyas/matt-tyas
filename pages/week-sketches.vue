@@ -1,36 +1,22 @@
 <template>
   <main>
     <section class="mt-box mt-box--sketches mt-box--open">
-      <h1 class="mt-subtitle mt--inverse">
-        Week sketches
-      </h1>
-      <div class="mt-sketches-content mt-sketches-content--is-open">
-        <p class="mt-column mt--inverse">
-          Like weeknotes, but drawings. I was challenging myself to write less. This probably takes longer &mdash; but is more fun.
-        </p>
-        <div class="mt-overflow-wrap">
-          <div class="mt-grid mt-grid--sketches">
-            <div class="mt-grid__item">
-              <figure class="mt-week-sketch"> 
-                <img src="~/static/weeksketches/weeksketch-11-01-19.jpg" alt="Weeksketch">
-              </figure>
-            </div>
-            <div class="mt-grid__item">
-              <figure class="mt-week-sketch">
-                <img src="~/static/weeksketches/weeksketch-11-01-19.jpg" alt="Weeksketch">
-              </figure>
-            </div>
-            <div class="mt-grid__item">
-              <figure class="mt-week-sketch">
-                <img src="~/static/weeksketches/weeksketch-11-01-19.jpg" alt="Weeksketch">
-              </figure>
-            </div>
-            <div class="mt-grid__item">
-              <figure class="mt-week-sketch">
-                <img src="~/static/weeksketches/weeksketch-11-01-19.jpg" alt="Weeksketch">
-              </figure>
-            </div>
-          </div>
+      <div class="mt-grid-container">
+        <header class="mt-introduction">
+          <h1 class="mt-title mt-inverse">
+            Week sketches
+          </h1>
+          <h2 class="mt-subtitle">
+            Like weeknotes, but drawings. I was challenging myself to write less. This probably takes longer &mdash; but is more fun.
+          </h2>
+          <!-- <img src="~/static/matt.svg" alt="A poor quality illustration of Matt Tyas" class="mt-portrait"> -->
+        </header>
+        <div class="mt-about-content mt-about-content--is-open">
+          <h3>11/01/19</h3>
+          <figure class="mt-week-sketch"> 
+            <img src="~/static/weeksketches/weeksketch-11-01-19.jpg" alt="Weeksketch">
+          </figure>
+          <p>I am currently on shared parental leave until 04/03/19. I'll upload my other week sketches once I'm back at work.</p>
         </div>
       </div>
       <nuxt-link to="/" class="mt-close">
