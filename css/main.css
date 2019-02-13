@@ -595,11 +595,21 @@ ul {
   stroke: #000;
 }
 
+.mt-close--inverse svg path {
+  fill: #000;
+  stroke: #000;
+}
+
 @media (min-width: 1020px) {
 
   .mt-close svg path {
     fill: #FFF;
     stroke: #FFF;
+  }
+
+  .mt-close--inverse svg path {
+    fill: #000;
+    stroke: #000;
   }
 }
 
