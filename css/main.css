@@ -614,7 +614,10 @@ ul {
   right: 40px;
   top: 30px;
   opacity: 1;
-  transition: opacity .35 ease-in-out;
+  transition-property: opacity;
+  transition-duration: 500ms;
+  transition-timing-function: ease-in-out;
+  transition-delay: .5s;
 }
 
 .mt-close svg path {
