@@ -1,6 +1,6 @@
 <template>
   <main>
-    <section class="mt-box mt-box--work mt-box--open">
+    <section class="mt-box mt-box--work mt-box--full">
       <div class="mt-grid-container">
         <header class="mt-introduction">
           <h1 class="mt-title mt-inverse">
@@ -11,7 +11,7 @@
           </h2>
           <!-- <img src="~/static/matt.svg" alt="A poor quality illustration of Matt Tyas" class="mt-portrait"> -->
         </header>
-        <article class="mt-about-content mt-about-content--is-open">
+        <article class="mt-about-content mt-about-content--is-open mt-contact-width">
           <figure class="mt-job">
             <img src="/coop-logo-white.svg" alt="Co-op logo" class="mt-job__logo mt-job__logo--coop"> 
             <figcaption>

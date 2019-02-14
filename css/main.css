@@ -90,7 +90,7 @@ ul {
   position: absolute;
   height: 25%;
   width: 50%;
-  padding: 18px 24px;
+  padding: 16px 18px;
   background: #FFF;
   overflow: hidden;
   text-decoration: none;
@@ -110,8 +110,17 @@ ul {
 }
 
 .mt-intro__image-group {
-  height: 320px;
-  background: url('/walls.svg') no-repeat 180px 40px;
+  height: 320px; 
+  background: url('/walls.svg') no-repeat 140px 40px;
+  background-size: 150%;
+}
+
+@media (min-width: 1020px) {
+
+  .mt-intro__image-group {
+    background-size: 100%;
+    background: url('/walls.svg') no-repeat 180px 40px;
+  }
 }
 
 .mt-intro__image-group,
@@ -146,10 +155,10 @@ ul {
 
 .mt-box--about {
   width: 100%;
-  height: 100vh;
+  height: 100%;
   top: 0;
   left: 0;
-  padding: 18px 0 18px 24px;
+  padding: 18px 0 18px 18px;
   background: #FFF;
 }
 
@@ -162,6 +171,7 @@ ul {
   .mt-box--about {
     width: 50%;
     left: 0;
+    padding: 18px 0 18px 24px;
   }
 }
 
@@ -191,7 +201,7 @@ ul {
   top: auto;
   bottom: 0;
   width: 50%;
-  height: 300px;
+  height: 180px;
   background: var(--mt-bright);
 }
 
@@ -209,7 +219,7 @@ ul {
 .page-enter-active .mt-box--work,
 .page-leave-active .mt-box--work {
   width: 50%;
-  height: 300px;
+  height: 180px;
 }
 
 @media (min-width: 1020px) {
@@ -244,7 +254,7 @@ ul {
 .mt-box--contact {
   right: 0;
   bottom: 0 !important;
-  height: 100px;
+  height: 60px;
   background: var(--mt-dark-blue);
 }
 
@@ -259,7 +269,7 @@ ul {
 .page-enter-active .mt-box--contact,
 .page-leave-active .mt-box--contact  {
   width: 50%;
-  height: 100px;
+  height: 60px;
 }
 
 @media (min-width: 1020px) {
@@ -275,11 +285,10 @@ ul {
 .mt-box--sketches {
   right: 0;
   top: auto;
-  bottom: 200px;
-  height: 100px;
+  bottom: 120px;
+  height: 60px;
   width: 50%;
   background: var(--mt-light);
-  /* background-image: url('/static/weeksketches/weeksketch-11-01-19.jpg'); */
 }
 
 @media (min-width: 1020px) {
@@ -295,9 +304,9 @@ ul {
 .page-enter-active .mt-box--sketches,
 .page-leave-active .mt-box--sketches  {
   right: 0;
-  top: 421px;
-  bottom: 200px;
-  height: 100px;
+  top: 640px;
+  bottom: 120px;
+  height: 50px;
   width: 50%;
 }
 
@@ -343,8 +352,8 @@ ul {
 .mt-box--writing {
   right: 0;
   top: auto;
-  bottom: 100px;
-  height: 100px;
+  bottom: 60px;
+  height: 60px;
   width: 50%;
   background: var(--mt-brand);
 }
@@ -361,9 +370,9 @@ ul {
 .page-enter-active .mt-box--writing,
 .page-leave-active .mt-box--writing  {
   right: 0;
-  top: 521px;
-  bottom: 100px;
-  height: 100px;
+  top: 692px;
+  bottom: 60px;
+  height: 40px;
   width: 50%;
 }
 
@@ -481,13 +490,20 @@ ul {
   margin: 0 0 18px 0;
   font-weight: 300;
   font-style: normal;
-  font-size: 60px;
+  font-size: 40px;
   line-height: 1.2;
   color: #000;
   transition-property: font-size;
   transition-duration: 500ms;
   transition-timing-function: ease-in-out;
   transition-delay: 0;
+}
+
+@media (min-width: 1020px) {
+
+  .mt-title {
+    font-size: 60px;
+  }
 }
 
 .page-enter-active .mt-title {
@@ -497,15 +513,26 @@ ul {
 .mt-subtitle {
   width: auto;
   font-weight: lighter;
-  font-size: 24px;
+  font-size: 22px;
   color: #000;
   margin-top: -3px;
+}
+
+.mt-box--about .mt-subtitle {
+  padding-right: 18px;
+}
+
+@media (min-width: 1020px) {
+
+  .mt-box--about .mt-subtitle {
+    padding-right: 0;
+  }
 }
 
 .mt-about-link {
   position: absolute;
   bottom: 24px;
-  font-size: 24px;
+  font-size: 22px;
   color: #FFF;
   text-decoration: underline;
   line-height: 1;
@@ -538,13 +565,17 @@ ul {
 
 .mt-subtitle,
 .mt-title {
-  width: 400px;
+  width: 100%;
 }
 
 @media (min-width: 1020px) {
 
   .mt-title {
     width: 450px;
+  }
+
+  .mt-title {
+    width: 400px;
   }
 }
 
@@ -703,6 +734,7 @@ ul {
 }
 
 .page-enter-active .mt-about-content,
+.page-enter-active .mt-close,
 .page-enter-active .mt-introduction .mt-subtitle {
   opacity: 0
 }
