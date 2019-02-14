@@ -15,14 +15,6 @@ body, html {
   width: 100%;
 }
 
-@media (min-width: 1020px) {
-
-  body, html {
-    height: 100%;
-    width: 100%;
-  }
-}
-
 *,
 *:after,
 *:before {
@@ -92,9 +84,13 @@ ul {
   width: 50%;
   padding: 16px 18px;
   background: #FFF;
-  overflow: hidden;
+  overflow-y: scroll;
   text-decoration: none;
   transition: all 0.35s ease-in-out .15s;
+}
+
+.mt-nav-list .mt-box {
+  overflow: hidden;
 }
 
 @media (min-width: 1020px) {
@@ -242,8 +238,15 @@ ul {
 .mt-job__logo--finest {
   position: relative;
   left: 2px;
-  width: 320px;
+  width: 280px;
   margin: 0 0 15px 0;
+}
+
+@media (min-width: 1020px) {
+
+  .mt-job__logo--finest {
+    width: 320px;
+  }
 }
 
 .mt-job__logo--coop {
@@ -304,7 +307,7 @@ ul {
 .page-enter-active .mt-box--sketches,
 .page-leave-active .mt-box--sketches  {
   right: 0;
-  top: 640px;
+  top: 587px;
   bottom: 120px;
   height: 50px;
   width: 50%;
@@ -370,8 +373,7 @@ ul {
 .page-enter-active .mt-box--writing,
 .page-leave-active .mt-box--writing  {
   right: 0;
-  top: 692px;
-  bottom: 60px;
+  top: 647px;
   height: 40px;
   width: 50%;
 }
@@ -440,8 +442,6 @@ ul {
   opacity: 0;
 }
 
-
-
 .nav-work--is-active .mt-box--about,
 .nav-work--is-active .mt-box--writing,
 .nav-work--is-active .mt-box--contact,
@@ -507,7 +507,17 @@ ul {
 }
 
 .page-enter-active .mt-title {
-  font-size: 28px;
+  position: relative;
+  top: -1px;
+  font-size: 22px;
+}
+
+@media (min-width: 1020px) {
+
+  .page-enter-active .mt-title {
+    top: 0;
+    font-size: 28px;
+  }
 }
 
 .mt-subtitle {
@@ -573,10 +583,6 @@ ul {
   .mt-title {
     width: 450px;
   }
-
-  .mt-title {
-    width: 400px;
-  }
 }
 
 @media (min-width: 1020px) {
@@ -611,8 +617,8 @@ ul {
   display: block;
   width: 32px;
   height: 32px;
-  right: 40px;
-  top: 30px;
+  right: 20px;
+  top: 28px;
   opacity: 1;
   transition-property: opacity;
   transition-duration: 500ms;
@@ -620,13 +626,34 @@ ul {
   transition-delay: .5s;
 }
 
+@media (min-width: 1020px) {
+
+  .mt-close {
+    right: 32px;
+    top: 32px;
+  }
+}
+
+.mt-close--about {
+  right: 42px;
+  top: 40px;
+}
+
+@media (min-width: 1020px) {
+
+  .mt-close {
+    right: 32px;
+    top: 32px;
+  }
+}
+
 .mt-close svg path {
   width: 32px;
   height: 32px;
   opacity: 0.8;
   transition: opacity .25s ease;
-  fill: #000;
-  stroke: #000;
+  fill: #FFF;
+  stroke: #FFF;
 }
 
 .mt-close--inverse svg path {
@@ -672,14 +699,33 @@ ul {
 }
 
 .mt-grid-container {
-  display: grid;
-  grid-template-columns: 40% 60%;
-  grid-template-rows: 1fr;
-  grid-template-areas: "introduction about-content";
+  display: block;
+}
+
+@media (min-width: 1020px) {
+
+  .mt-grid-container {
+    height: 100%;
+    display: grid;
+    grid-template-columns: minmax(45%, 35%);
+    grid-template-rows: 1fr;
+    grid-template-areas: "introduction about-content";
+  }
 }
 
 .mt-introduction {
+  /* display: none; */
+}
+
+.mt-introduction--about {
   display: none;
+}
+
+@media (min-width: 1020px) {
+
+  .mt-introduction--about {
+    display: block;
+  }
 }
 
 @media (min-width: 1020px) {
@@ -702,14 +748,13 @@ ul {
 }
 
 .mt-about-content  {
-  position: absolute;
-  top: 0;
+  position: static;
+  top: 180px;
   left: 0;
   grid-area: about-content;
-  overflow-y: scroll;
-  height: 100vh;
-  margin: 12px;
-  padding: 40px 25px;
+  /* overflow-y: scroll; */
+  height: 100%;
+  padding: 20px 25px;
   opacity: 0;
   color: #000;
   background: #FFF;
@@ -718,6 +763,14 @@ ul {
   transition-timing-function: ease-in-out;
   transition-delay: .5s;
   box-shadow: 0px 10px 93px 0px rgba(0,0,0,0.31);
+}
+
+.mt-about-content--top {
+  top: 0;
+}
+
+.mt-about-content h3 {
+  margin-top: 0;
 }
 
 @media (min-width: 1020px) {
@@ -766,22 +819,6 @@ ul {
   animation: opacity 400ms ease-out;
 }
 
-/* @-webkit-keyframes move-bg {
-	from {
-		transform: translateX(0);
-	}
-	to { 
-		transform: translateX(-187%);
-	}
-}
-
-.mt-intro__image-group {
-  animation-name: MOVE-BG;
-	animation-duration: 100s;
-	animation-timing-function: linear;
-	animation-iteration-count: infinite;
-} */
-
 .mt-blog-post {
   font-size: 24px;
   margin-bottom: 32px;
@@ -809,7 +846,6 @@ ul {
     -ms-grid-col-span: 1;
   }
 }
-
 
 .mt-week-sketch {
   width: 100%;

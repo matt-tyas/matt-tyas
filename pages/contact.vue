@@ -14,7 +14,7 @@
         <article class="mt-about-content mt-about-content--is-open mt-contact-width">
           <h3>Contact me on</h3>
           <ul>
-            <li><a href="mailto:matt.tyas@gmail.com">Email &mdash; matt.tyas@gmail.com</a></li>
+            <li><a href="mailto:matt.tyas@gmail.com">matt.tyas@gmail.com</a></li>
             <li><a href="https://twitter.com/MattTyas">Twitter &mdash; @MattTyas</a></li>
             <li><a href="https://www.linkedin.com/in/matthew-tyas-74b24717/">Linkedin</a></li>
           </ul>
