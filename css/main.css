@@ -417,6 +417,13 @@ ul {
   text-decoration: underline;
 }
 
+.mt-box--work.mt-box--full .mt-subtitle,
+.mt-box--writing.mt-box--full .mt-subtitle,
+.mt-box--contact.mt-box--full .mt-subtitle,
+.mt-box--sketches.mt-box--full .mt-subtitle {
+  text-decoration: none;
+}
+
 .mt-box--work:hover .mt-subtitle,
 .mt-box--writing:hover .mt-subtitle,
 .mt-box--contact:hover .mt-subtitle,
