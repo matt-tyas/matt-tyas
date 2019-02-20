@@ -142,6 +142,46 @@ ul {
   }
 }
 
+.mt-work-portrait {
+  position: absolute;
+  transition-property: all;
+  transition-duration: 500ms;
+  transition-timing-function: ease-in-out;
+  /* transition-delay: .35s; */
+  opacity: 0.8;
+}
+
+.mt-work-portrait {
+  width: 140px;
+  top: 80px;
+}
+
+@media (min-width: 1020px) {
+
+  .mt-work-portrait {
+    width: 200px;
+    top: 185px;
+  }
+}
+
+.nav-work--is-active .mt-work-portrait {
+  top: 300px;
+  width: 250px;
+}
+
+.mt-work-portrait.mt-work-portrait--open {
+  display: none;
+}
+
+@media (min-width: 1020px) {
+
+  .mt-work-portrait.mt-work-portrait--open {
+    display: block;
+    top: 300px;
+    width: 250px;
+  }
+}
+
 @media (min-width: 1020px) {
 
   .mt-more{
@@ -375,7 +415,6 @@ ul {
 .page-enter-active .mt-box--writing,
 .page-leave-active .mt-box--writing  {
   right: 0;
-  /* top: 647px; */
   bottom: 80px;
   height: 40px;
   width: 50%;

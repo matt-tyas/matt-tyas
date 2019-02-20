@@ -9,7 +9,7 @@
           <h2 class="mt-subtitle">
             I'm a Principal Designer and I run my own business based in the Northern&nbsp;Quarter.
           </h2>
-          <!-- <img src="~/static/matt.svg" alt="A poor quality illustration of Matt Tyas" class="mt-portrait"> -->
+          <img src="~/static/matt-work.svg" alt="A poor quality illustration of Matt Tyas" class="mt-work-portrait mt-work-portrait--open">
         </header>
         <article class="mt-about-content mt-about-content--is-open mt-contact-width">
           <figure class="mt-job">

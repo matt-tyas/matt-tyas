@@ -21,6 +21,12 @@
               alt="A poor quality illustration of Matt Tyas"
               :class="`${link.cssImgClass}`"
             >
+            <img 
+              v-if="link.workImg" 
+              :src="`${link.workImg}`" 
+              alt="A poor quality illustration of Matt Tyas"
+              :class="`${link.workcssImgClass}`"
+            >
             <p class="mt-about-link">{{link.profileLink}}</p>
             <div v-if="link.profileImg" class="mt-intro__image-group"></div>
           </nuxt-link>

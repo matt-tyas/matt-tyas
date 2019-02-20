@@ -22,10 +22,8 @@ const createStore = () => {
           subtitle: 'Work',
           url: 'work',
           cssClass: 'mt-box--work',
-          coopImg: '/coop-logo-white.svg',
-          coopJob: 'Principal Designer',
-          finestImg: '/manchesters-finest.svg',
-          finestJob: 'Director'
+          workImg: '/matt-work.svg',
+          workcssImgClass: 'mt-work-portrait',
         },
         {
           id: 3,
