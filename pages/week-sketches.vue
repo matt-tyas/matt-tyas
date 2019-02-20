@@ -12,11 +12,15 @@
           <!-- <img src="~/static/matt.svg" alt="A poor quality illustration of Matt Tyas" class="mt-portrait"> -->
         </header>
         <div class="mt-about-content mt-about-content--is-open">
+          <p>I am currently on shared parental leave until 04/03/19. I'll upload my other week sketches once I'm back at work.</p>
+          <h3>18/01/19</h3>
+          <figure class="mt-week-sketch"> 
+            <img src="~/static/weeksketches/weeksketch-18-01-19.jpg" alt="Weeksketch">
+          </figure>
           <h3>11/01/19</h3>
           <figure class="mt-week-sketch"> 
             <img src="~/static/weeksketches/weeksketch-11-01-19.jpg" alt="Weeksketch">
           </figure>
-          <p>I am currently on shared parental leave until 04/03/19. I'll upload my other week sketches once I'm back at work.</p>
         </div>
       </div>
       <nuxt-link to="/" class="mt-close">
