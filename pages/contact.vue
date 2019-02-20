@@ -12,12 +12,8 @@
           <!-- <img src="~/static/matt.svg" alt="A poor quality illustration of Matt Tyas" class="mt-portrait"> -->
         </header>
         <article class="mt-about-content mt-about-content--is-open mt-contact-width">
-          <h3>Contact me on</h3>
-          <ul>
-            <li><a href="mailto:matt.tyas@gmail.com">matt.tyas@gmail.com</a></li>
-            <li><a href="https://twitter.com/MattTyas">Twitter &mdash; @MattTyas</a></li>
-            <li><a href="https://www.linkedin.com/in/matthew-tyas-74b24717/">Linkedin</a></li>
-          </ul>
+          <h3>Contact me</h3>
+          <p>On <a href="mailto:matt.tyas@gmail.com">matt.tyas@gmail.com</a> (it might take me a day or two) on <a href="https://www.linkedin.com/in/matthew-tyas-74b24717/">Linkedin</a> (fast reply) or <a href="https://twitter.com/MattTyas">Twitter (@MattTyas)</a> (fastest).</p>
         </article>
       </div>
       <nuxt-link to="/" class="mt-close">
