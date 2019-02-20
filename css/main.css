@@ -109,7 +109,7 @@ ul {
 
 .mt-intro__image-group {
   height: 420px; 
-  background: url('/walls.svg') no-repeat 140px 40px;
+  background: url('/walls.svg') no-repeat 140px 20px;
   background-size: 150%;
 }
 
@@ -128,7 +128,7 @@ ul {
 
 .mt-portrait {
   width: 250px;
-  top: 270px;
+  top: 250px;
   left: -20px;
   position: absolute;
   transition: all 0.15s;
