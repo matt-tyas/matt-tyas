@@ -24,8 +24,14 @@
             <img 
               v-if="link.workImg" 
               :src="`${link.workImg}`" 
-              alt="A poor quality illustration of Matt Tyas"
+              alt="A poor quality illustration of Matt Tyas with a laptop head"
               :class="`${link.workcssImgClass}`"
+            >
+            <img 
+              v-if="link.sketchImg" 
+              :src="`${link.sketchImg}`" 
+              alt="A poor quality illustration of Matt Tyas as a pencil"
+              :class="`${link.sketchcssImgClass}`"
             >
             <p class="mt-about-link">{{link.profileLink}}</p>
             <div v-if="link.profileImg" class="mt-intro__image-group"></div>

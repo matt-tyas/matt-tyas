@@ -23,13 +23,15 @@ const createStore = () => {
           url: 'work',
           cssClass: 'mt-box--work',
           workImg: '/matt-work.svg',
-          workcssImgClass: 'mt-work-portrait',
+          workcssImgClass: 'mt-work-portrait'
         },
         {
           id: 3,
           subtitle: 'Week sketches',
           url: 'week-sketches',
-          cssClass: 'mt-box--sketches'
+          cssClass: 'mt-box--sketches',
+          sketchImg: '/matt-sketch.svg',
+          sketchcssImgClass: 'mt-sketch-portrait'
         },
         {
           id: 4,

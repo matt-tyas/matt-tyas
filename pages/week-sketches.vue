@@ -9,7 +9,7 @@
           <h2 class="mt-subtitle">
             Like weeknotes, but drawings. I was challenging myself to write less. This probably takes longer &mdash; but is more fun.
           </h2>
-          <!-- <img src="~/static/matt.svg" alt="A poor quality illustration of Matt Tyas" class="mt-portrait"> -->
+          <img src="~/static/matt-sketch.svg" alt="A poor quality illustration of Matt Tyas as a pencil" class="mt-sketch-portrait mt-sketch-portrait--open">          <!-- <img src="~/static/matt.svg" alt="A poor quality illustration of Matt Tyas" class="mt-portrait"> -->
         </header>
         <div class="mt-about-content mt-about-content--is-open">
           <p>I am currently on shared parental leave until 04/03/19. I'll upload my other week sketches once I'm back at work.</p>
