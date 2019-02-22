@@ -16,7 +16,7 @@
             <img src="/coop-logo-white.svg" alt="Co-op logo" class="mt-job__logo mt-job__logo--coop"> 
             <figcaption>
               <h3>Principal Designer</h3>
-              <p>As Principal designer I am responsible for leading design, user research and build of the main Co-op customer facing websites. I manage a team of designers and front end engineers, lead the front end development community of practice and am responsibe for the Co-op design system.</p>
+              <p>As Principal designer I am responsible for leading design, user research and build of the main Co-op customer facing websites. I manage a team of designers and front end engineers, lead the front end development community of practice and am responsible for the Co-op design system.</p>
               <a href="http://www.coop.co.uk/designsystem">Visit the Co-op design system</a>
             </figcaption>
           </figure>
