@@ -202,15 +202,15 @@ ul {
 
   .mt-sketch-portrait {
     display: block;
-    width: 80px;
-    bottom: 20px;
+    width: 100px;
+    bottom: -30px;
     left: 32px;
   }
 }
 
 .page-enter-active .mt-sketch-portrait.mt-sketch-portrait--open {
-  width: 80px;
-  bottom: 20px;
+  width: 100px;
+  bottom: -30px;
   left: 32px;
 }
 
