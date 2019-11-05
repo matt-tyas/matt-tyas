@@ -9,7 +9,7 @@
           <h2 class="mt-subtitle">
             Blog posts on design and design systems. Mainly from the Co-op digital blog.
           </h2>
-          <!-- <img src="~/static/matt.svg" alt="A poor quality illustration of Matt Tyas" class="mt-portrait"> -->
+          <img src="~/static/matt-sketch.svg" alt="A poor quality illustration of Matt Tyas as a pencil" class="mt-sketch-portrait mt-sketch-portrait--open">   
         </header>
         <div class="mt-about-content mt-about-content--is-open">
           <h3>Recent blog posts</h3>

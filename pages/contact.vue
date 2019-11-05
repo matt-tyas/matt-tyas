@@ -1,6 +1,6 @@
 <template>
   <main>
-    <section class="mt-box mt-box--contact mt-box--full">
+    <section class="mt-box mt-box--contact mt-box--open-contact">
       <div class="mt-grid-container">
         <header class="mt-introduction">
           <h1 class="mt-title mt-inverse">
