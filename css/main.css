@@ -192,11 +192,11 @@ ul {
   transition-timing-function: ease-in-out;
 }
 
+
 @media (min-width: 1020px) {
 
   .mt-sketch-portrait {
     display: block;
-    width: 30%;
     bottom: -30px;
     left: 32px;
   }
@@ -206,6 +206,15 @@ ul {
   width: 100px;
   bottom: -94px;
   left: 12px;
+}
+
+@media (min-width: 1020px) {
+
+  .page-enter-active .mt-sketch-portrait.mt-sketch-portrait--open {
+    width: 100px;
+    bottom: -30px;
+    left: 32px;
+  }
 }
 
 .mt-sketch-portrait.mt-sketch-portrait--open {
@@ -218,7 +227,7 @@ ul {
   .mt-sketch-portrait.mt-sketch-portrait--open {
     display: block;
     bottom: 30px;
-    width: 10%;
+    width: 12%;
     left: 32px;
   }
 }
@@ -363,7 +372,7 @@ ul {
   height: 120px;
   width: 50%;
   background: var(--mt-brand);
-  z-index: 1;
+  z-index: 3;
 }
 
 @media (min-width: 1020px) {
@@ -843,7 +852,7 @@ ul {
   top: 180px;
   left: 0;
   grid-area: about-content;
-  /* overflow-y: scroll; */
+  margin-bottom: 200px;
   height: 100%;
   padding: 20px;
   opacity: 0;

@@ -7,7 +7,7 @@
               Matt Tyas
             </h1>
             <h2 class="mt-subtitle">
-              Service and interaction design. Product, team management and frontend engineering.
+              Service and interaction design. Product, team management and front-end engineering.
             </h2>
             <img src="~/static/matt.svg" alt="A poor quality illustration of Matt Tyas" class="mt-portrait">
           </header>
