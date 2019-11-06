@@ -154,7 +154,6 @@ ul {
   transition-property: all;
   transition-duration: 500ms;
   transition-timing-function: ease-in-out;
-  /* opacity: 0.8; */
 }
 
 .mt-work-portrait {
@@ -173,8 +172,8 @@ ul {
 }
 
 .page-enter-active .mt-work-portrait.mt-work-portrait--open {
-  width: 25%;
-  bottom: -120px;
+  width: 30%;
+  bottom: -60px;
   left: 10px;
 }
 
@@ -225,6 +224,19 @@ ul {
   }
 }
 
+@media (min-width: 1020px) {
+
+  .mt-sketch-phone.mt-sketch-phone--open {
+    width: 20%;
+  }
+
+  .page-enter-active .mt-sketch-phone.mt-sketch-phone--open {
+    width: 40%;
+    bottom: 15px;
+    left: 32px;
+  }
+}
+
 .page-enter-active .mt-sketch-portrait.mt-sketch-portrait--open {
   width: 100px;
   bottom: -94px;
@@ -235,7 +247,7 @@ ul {
 
   .page-enter-active .mt-sketch-portrait.mt-sketch-portrait--open {
     width: 100px;
-    bottom: -30px;
+    bottom: 10px;
     left: 32px;
   }
 }
