@@ -2,7 +2,6 @@
     <nav :class="{
       'nav-about--is-active' : (page === 'about'),
       'nav-work--is-active' : (page === 'work'),
-      'nav-sketches--is-active' : (page === 'week-sketches'),
       'nav-writing--is-active' : (page === 'writing'),
       'nav-contact--is-active' : (page === 'contact')
     }">
@@ -39,7 +38,9 @@
               alt="A poor quality illustration of Matt Tyas as a smart phone"
               :class="`${link.contactCssImgClass}`"
             >
-            <p class="mt-about-link">{{link.profileLink}}</p>
+            <p class="mt-about-link" v-if="link.profileLink">
+              <span>{{link.profileLink}}</span>
+            </p>
             <div v-if="link.profileImg" class="mt-intro__image-group"></div>
           </nuxt-link>
         </li>

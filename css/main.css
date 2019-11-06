@@ -667,8 +667,17 @@ ul {
   bottom: 24px;
   font-size: 22px;
   color: #FFF;
-  text-decoration: underline;
+  
   line-height: 1;
+}
+
+.mt-about-link span {
+  text-decoration: underline;
+}
+
+.mt-about-link svg {
+  position: relative;
+  top: 9px;
 }
 
 @media (min-width: 1020px) {
@@ -683,10 +692,10 @@ ul {
   color: #000;
 }
 
-.mt-box--about:hover .mt-about-link,
-.mt-box--work:hover .mt-about-link
-.mt-box--writing:hover .mt-about-link,
-.mt-box--contact:hover .mt-about-link,
+.mt-box--about:hover .mt-about-link span,
+.mt-box--work:hover .mt-about-link span,
+.mt-box--writing:hover .mt-about-link span,
+.mt-box--contact:hover .mt-about-link span,
 .mt-box--open .mt-subtitle,
 .mt-box--open .mt-subtitle,
 .mt-box--open .mt-subtitle,
@@ -770,12 +779,11 @@ ul {
 }
 
 .mt-close svg path {
-  width: 32px;
-  height: 32px;
+  width: 36px;
+  height: 36px;
   opacity: 0.8;
   transition: opacity .25s ease;
   fill: #FFF;
-  stroke: #FFF;
 }
 
 .mt-close--inverse svg path {

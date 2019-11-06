@@ -9,10 +9,9 @@
           <h2 class="mt-subtitle">
             Blog posts on design and design systems. Mainly from the Co-op digital blog.
           </h2>
-           
+
         </header>
         <div class="mt-about-content mt-about-content--is-open">
-          <h3>Recent blog posts</h3>
           <article class="mt-blog-post">
             <a href="https://digitalblog.coop.co.uk/2018/07/26/from-digital-design-manual-to-design-system/">
               From digital design manual to design system
