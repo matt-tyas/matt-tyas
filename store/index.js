@@ -38,7 +38,8 @@ const createStore = () => {
           subtitle: 'Contact',
           url: 'contact',
           cssClass: 'mt-box--contact',
-          notLink: 'yes',
+          contactImg: '/phone.svg',
+          contactCssImgClass: 'mt-sketch-phone'
         },
       ],
     },

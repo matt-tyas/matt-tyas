@@ -24,7 +24,7 @@
             <img 
               v-if="link.workImg" 
               :src="`${link.workImg}`" 
-              alt="A poor quality illustration of Matt Tyas with a laptop head"
+              alt="A poor quality illustration of Matt Tyas with a laptop for a head"
               :class="`${link.workcssImgClass}`"
             >
             <img 
@@ -32,6 +32,12 @@
               :src="`${link.writingImg}`" 
               alt="A poor quality illustration of Matt Tyas as a pencil"
               :class="`${link.writingCssImgClass}`"
+            >
+            <img 
+              v-if="link.contactImg" 
+              :src="`${link.contactImg}`" 
+              alt="A poor quality illustration of Matt Tyas as a smart phone"
+              :class="`${link.contactCssImgClass}`"
             >
             <p class="mt-about-link">{{link.profileLink}}</p>
             <div v-if="link.profileImg" class="mt-intro__image-group"></div>

@@ -197,16 +197,29 @@ ul {
   transition-timing-function: ease-in-out;
 }
 
-
-
-
-
 @media (min-width: 1020px) {
 
   .mt-sketch-portrait {
     position: absolute;
     display: block;
     bottom: -30px;
+    left: 32px;
+  }
+}
+
+.mt-sketch-phone {
+  width: 40%;
+  position: static;
+  transition-property: all;
+  transition-duration: 500ms;
+  transition-timing-function: ease-in-out;
+}
+
+@media (min-width: 1020px) {
+  .mt-sketch-phone {
+    position: absolute;
+    display: block;
+    bottom: 0px;
     left: 32px;
   }
 }
