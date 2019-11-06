@@ -167,7 +167,7 @@ ul {
   .mt-work-portrait {
     position: absolute;
     width: 25%;
-    bottom: -120px;
+    bottom: -60px;
     left: 10px;
   }
 }
@@ -203,7 +203,7 @@ ul {
   .mt-sketch-portrait {
     position: absolute;
     display: block;
-    bottom: -30px;
+    bottom: 10px;
     left: 32px;
   }
 }
@@ -220,7 +220,7 @@ ul {
   .mt-sketch-phone {
     position: absolute;
     display: block;
-    bottom: 0px;
+    bottom: 15px;
     left: 32px;
   }
 }
