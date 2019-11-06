@@ -37,7 +37,8 @@ const createStore = () => {
           id: 4,
           subtitle: 'Contact',
           url: 'contact',
-          cssClass: 'mt-box--contact'
+          cssClass: 'mt-box--contact',
+          notLink: 'yes',
         },
       ],
     },

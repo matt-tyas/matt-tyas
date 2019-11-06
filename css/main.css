@@ -74,6 +74,10 @@ ul {
   opacity: 1;
 }
 
+.mt-nav-list a:hover {
+  transition: all 0.05s ease-in-out .05s;
+}
+
 .page-enter-active .mt-nav-list,
 .page-leave-active .mt-nav-list {
   opacity: 0;
@@ -145,7 +149,7 @@ ul {
 }
 
 .mt-work-portrait {
-  position: absolute;
+  position: static;
   transition-property: all;
   transition-duration: 500ms;
   transition-timing-function: ease-in-out;
@@ -160,6 +164,7 @@ ul {
 @media (min-width: 1020px) {
 
   .mt-work-portrait {
+    position: absolute;
     width: 25%;
     bottom: -120px;
     left: 10px;
@@ -185,17 +190,21 @@ ul {
 }
 
 .mt-sketch-portrait {
-  width: 100px;
-  position: absolute;
+  width: 30%;
+  position: static;
   transition-property: all;
   transition-duration: 500ms;
   transition-timing-function: ease-in-out;
 }
 
 
+
+
+
 @media (min-width: 1020px) {
 
   .mt-sketch-portrait {
+    position: absolute;
     display: block;
     bottom: -30px;
     left: 32px;
@@ -852,7 +861,7 @@ ul {
   top: 180px;
   left: 0;
   grid-area: about-content;
-  margin-bottom: 200px;
+  margin-bottom: 32px;
   height: 100%;
   padding: 20px;
   opacity: 0;
