@@ -13,6 +13,11 @@
         </header>
         <div class="mt-about-content mt-about-content--is-open">
           <article class="mt-blog-post">
+            <a href="https://digitalblog.coop.co.uk/2019/11/07/building-trust-in-the-co-op-design-system-through-weekly-hacks/">
+              Building trust in the Co-op design system through weekly hacks
+            </a>
+          </article>
+          <article class="mt-blog-post">
             <a href="https://digitalblog.coop.co.uk/2018/07/26/from-digital-design-manual-to-design-system/">
               From digital design manual to design system
             </a>
