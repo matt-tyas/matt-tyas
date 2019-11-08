@@ -22,7 +22,7 @@
           <figure class="mt-job">
             <img src="/manchesters-finest.svg" alt="Manchester's Finest logo" class="mt-job__logo mt-job__logo--finest"> 
             <figcaption>
-              <h3>Technical Director</h3>
+              <h3>Director</h3>
               <p>Manchester’s Finest is an independent digital media and marketing company based in the Northern Quarter. We deliver creative content and experiences to Manchester and wider audiences. We aim to promote the very best the city has to offer.</p>
               <a href="http://www.manchestersfinest.com">Visit Manchester’s Finest</a>
             </figcaption>
