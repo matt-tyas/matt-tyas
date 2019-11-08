@@ -172,7 +172,7 @@ ul {
 }
 
 .page-enter-active .mt-work-portrait.mt-work-portrait--open {
-  width: 30%;
+  width: 25%;
   bottom: -60px;
   left: 10px;
 }
@@ -246,7 +246,7 @@ ul {
 @media (min-width: 1020px) {
 
   .page-enter-active .mt-sketch-portrait.mt-sketch-portrait--open {
-    width: 100px;
+    width: 30%;
     bottom: 10px;
     left: 32px;
   }

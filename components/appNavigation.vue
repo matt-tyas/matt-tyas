@@ -19,24 +19,28 @@
               :src="`${link.profileImg}`" 
               alt="A poor quality illustration of Matt Tyas"
               :class="`${link.cssImgClass}`"
+              rel="preload"
             >
             <img 
               v-if="link.workImg" 
               :src="`${link.workImg}`" 
               alt="A poor quality illustration of Matt Tyas with a laptop for a head"
               :class="`${link.workcssImgClass}`"
+              rel="preload"
             >
             <img 
               v-if="link.writingImg" 
               :src="`${link.writingImg}`" 
               alt="A poor quality illustration of Matt Tyas as a pencil"
               :class="`${link.writingCssImgClass}`"
+              rel="preload"
             >
             <img 
               v-if="link.contactImg" 
               :src="`${link.contactImg}`" 
               alt="A poor quality illustration of Matt Tyas as a smart phone"
               :class="`${link.contactCssImgClass}`"
+              rel="preload"
             >
             <p class="mt-about-link" v-if="link.profileLink">
               <span>{{link.profileLink}}</span>
