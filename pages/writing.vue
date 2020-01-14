@@ -7,11 +7,20 @@
             Writing
           </h1>
           <h2 class="mt-subtitle">
-            Blog posts on design and design systems. Mainly from the Co-op digital blog.
+            Blog posts on design, design systems and my work as a Principal Designer. 
           </h2>
-
         </header>
         <div class="mt-about-content mt-about-content--is-open">
+          <article class="mt-blog-post">
+            <a href="https://medium.com/@MattTyas/im-a-principal-designer-what-do-i-do-137be7009428">
+              I’m a Principal Designer – what do I do?
+            </a>
+          </article>
+          <article class="mt-blog-post">
+            <a href="https://medium.com/@MattTyas/writing-is-for-clever-people-with-thoughtful-opinions-not-silly-people-like-me-806974d7e7b1">
+              Writing is for clever people with thoughtful opinions — not silly people like me
+            </a>
+          </article>
           <article class="mt-blog-post">
             <a href="https://digitalblog.coop.co.uk/2019/11/07/building-trust-in-the-co-op-design-system-through-weekly-hacks/">
               Building trust in the Co-op design system through weekly hacks
