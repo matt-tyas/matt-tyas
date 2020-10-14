@@ -12,6 +12,26 @@
         </header>
         <div class="mt-about-content mt-about-content--is-open">
           <article class="mt-blog-post">
+            <a href="https://medium.com/@MattTyas/design-system-team-weeknotes-issue-3-9-oct-2020-81ab28de899d">
+              Co-op design system team weeknotes: Issue 3
+            </a>
+          </article>
+          <article class="mt-blog-post">
+            <a href="https://medium.com/@MattTyas/co-op-design-system-team-weeknotes-issue-2-16f079c3988a">
+              Co-op design system team weeknotes: Issue 2
+            </a>
+          </article>
+          <article class="mt-blog-post">
+            <a href="https://medium.com/@MattTyas/co-op-design-system-team-weeknotes-issue-1-86a1ff493694">
+              Co-op design system team weeknotes: Issue 1
+            </a>
+          </article>
+          <article class="mt-blog-post">
+            <a href="https://medium.com/@MattTyas/i-caused-a-mini-twitter-storm-because-of-some-job-adverts-i-posted-2e48fe1e451">
+              I caused a mini Twitter storm – because of some job adverts I posted
+            </a>
+          </article>
+          <article class="mt-blog-post">
             <a href="https://medium.com/@MattTyas/im-a-principal-designer-what-do-i-do-137be7009428">
               I’m a Principal Designer – what do I do?
             </a>
