@@ -5,12 +5,17 @@
         <header class="mt-introduction">
           <h1 class="mt-title mt-inverse">
             Writing
-          </h1>
+          </h1> 
           <h2 class="mt-subtitle">
             Blog posts on design, design systems and my work as a Principal Designer. 
           </h2>
         </header>
         <div class="mt-about-content mt-about-content--is-open">
+          <article class="mt-blog-post">
+            <a href="https://digitalblog.coop.co.uk/2020/10/15/how-dividing-into-smaller-teams-has-improved-delivery/">
+              How dividing into smaller delivery teams has improved delivery
+            </a>
+          </article>
           <article class="mt-blog-post">
             <a href="https://medium.com/@MattTyas/design-system-team-weeknotes-issue-3-9-oct-2020-81ab28de899d">
               Co-op design system team weeknotes: Issue 3
