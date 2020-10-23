@@ -12,6 +12,16 @@
         </header>
         <div class="mt-about-content mt-about-content--is-open">
           <article class="mt-blog-post">
+            <a href="https://matttyas.medium.com/design-system-team-weeknotes-issue-5-127bfa0a7019">
+              Co-op design system team weeknotes: Issue 5
+            </a>
+          </article>
+          <article class="mt-blog-post">
+            <a href="https://matttyas.medium.com/design-system-team-weeknotes-issue-4-60975d22622c">
+              Co-op design system team weeknotes: Issue 4
+            </a>
+          </article>
+          <article class="mt-blog-post">
             <a href="https://digitalblog.coop.co.uk/2020/10/15/how-dividing-into-smaller-teams-has-improved-delivery/">
               How dividing into smaller delivery teams has improved delivery
             </a>
